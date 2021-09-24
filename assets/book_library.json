@@ -2,17 +2,11 @@
     "books": [
         {
             "id": 0,
-            "title": "A Fire Upon the Deep",
-            "author": "Vernor Vinge",
-            "first_sentence": "The coldsleep itself was dreamless.",
-            "year_published": "1992"
-        },
-        {
-            "id": 1,
-            "title": "22111111",
-            "author": "d",
-            "first_sentence": "ss",
-            "published": "1000"
+            "title": "TITLE F2",
+            "author": "AUTHOR F",
+            "first_sentence": "FS F",
+            "year_published": "1992",
+            "published": "P F"
         },
         {
             "id": 2,
@@ -30,10 +24,10 @@
         },
         {
             "id": 4,
-            "title": "qsdFSDF",
-            "first_sentence": "QDFGDQF",
-            "author": "DFQGDFQG",
-            "published": "155"
+            "title": "TITLE F2",
+            "first_sentence": "FS F",
+            "author": "AUTHOR F",
+            "published": "P F"
         }
     ]
 }
