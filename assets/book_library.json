@@ -1,0 +1,39 @@
+{
+    "books": [
+        {
+            "id": 0,
+            "title": "A Fire Upon the Deep",
+            "author": "Vernor Vinge",
+            "first_sentence": "The coldsleep itself was dreamless.",
+            "year_published": "1992"
+        },
+        {
+            "id": 1,
+            "title": "22111111",
+            "author": "d",
+            "first_sentence": "ss",
+            "published": "1000"
+        },
+        {
+            "id": 2,
+            "title": "Dhalgren",
+            "author": "Samuel R. Delany",
+            "first_sentence": "to wound the autumnal city.",
+            "published": "1975"
+        },
+        {
+            "id": 3,
+            "title": "Monster",
+            "first_sentence": "EL FUEGO DEL MONSIEUR FINTA",
+            "author": "Ivan",
+            "published": "6"
+        },
+        {
+            "id": 4,
+            "title": "qsdFSDF",
+            "first_sentence": "QDFGDQF",
+            "author": "DFQGDFQG",
+            "published": "155"
+        }
+    ]
+}
