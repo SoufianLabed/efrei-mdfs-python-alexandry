@@ -108,7 +108,7 @@ def single_book(id):
         sql = """ DELETE FROM book WHERE id=? """
         conn.execute(sql, (id,))
         conn.commit()
-#         return "The book with id: {} has been deleted.".format(id), 200
+        return "The book with id: {} has been deleted.".format(id), 200
 
 
 
@@ -117,7 +117,7 @@ def single_book(id):
 # @app.route('/books', methods=['GET'])
 
 # def getAll():
-#     with open('D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json', 'r') as file:
+#     with open('assets/book_library.json', 'r') as file:
 #         books = json.load(file)
 #     if 'id' in request.args:
 #         id = int(request.args['id'])
@@ -135,7 +135,7 @@ def single_book(id):
 # @app.route('/deleteBooks/<int:id>', methods=['DELETE'])
 # def delete_book(id):
 
-#     with open('D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json', 'r') as file:
+#     with open('assets/book_library.json', 'r') as file:
 #         books = json.load(file)
 
   
@@ -155,7 +155,7 @@ def single_book(id):
 #                 del books["books"][index]
 
 #                 print(books)
-#                 with open("D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json", "w") as outfile:
+#                 with open("assets/book_library.json", "w") as outfile:
 #                     json.dump(books, outfile, indent=4)
 #                 return '''<html>
 #                             <body>
@@ -183,7 +183,7 @@ def single_book(id):
 #     first_sentence = request.form['first_sentence']
 #     published = request.form['published']
   
-#     with open('D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json', 'r') as file:
+#     with open('assets/book_library.json', 'r') as file:
 #         books = json.load(file)
   
 #     if 'id' in request.form:
@@ -206,7 +206,7 @@ def single_book(id):
 #                 books["books"][index]['first_sentence'] = first_sentence
 #                 books["books"][index]['published'] = published
 
-#                 with open("D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json", "w") as outfile:
+#                 with open("assets/book_library.json", "w") as outfile:
 #                     json.dump(books, outfile, indent=4)
 #                 return '''<html>
 #                             <body>
@@ -244,7 +244,7 @@ def single_book(id):
 
 # @app.route('/addbook', methods=['POST'])
 # def post_book():
-#     with open('D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json', 'r') as file:
+#     with open('assets/book_library.json', 'r') as file:
 #         books = json.load(file)
 
 #     title = request.form['title']
@@ -258,7 +258,7 @@ def single_book(id):
 #     id+=1
 #     data = {'id': id, 'title': title, 'first_sentence': first_sentence, 'author': author, 'published': published}
 #     books["books"].append(data)
-#     with open("D:/Users/sosol/Desktop/efrei-mdfs-python-alexandry/assets/book_library.json", "w") as outfile:
+#     with open("assets/book_library.json", "w") as outfile:
 #         json.dump(books, outfile, indent=4)
 
 #     return redirect("http://www.localhost:5000/books")
